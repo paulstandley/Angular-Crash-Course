@@ -1,0 +1,23 @@
+div {
+  background: aliceblue;
+}
+
+h1 {
+  color: antiquewhite;
+  text-align: center;
+}
+
+.hello {
+  background: blue;
+  padding: 1rem;
+}
+
+h1:hover {
+  color: blue;
+  text-align: center;
+}
+
+.hello:hover {
+  background: antiquewhite;
+  padding: 1rem;
+}

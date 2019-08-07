@@ -12,5 +12,6 @@
 
 ```BASH
 $ npm install -g @angular/cli
-$ ng new todo
+$ ng new todolist
+$ ng serve --open
 ```
