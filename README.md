@@ -14,4 +14,6 @@
 $ npm install -g @angular/cli
 $ ng new todolist
 $ ng serve --open
+$ ng generate component components/Todos
+$ ng test
 ```
