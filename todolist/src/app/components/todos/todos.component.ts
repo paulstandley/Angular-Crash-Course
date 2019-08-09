@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Todo } from '../../components/models/Todo';
+import { Todo } from '../../models/Todo';
 
 @Component({
   selector: 'app-todos',
@@ -7,11 +7,11 @@ import { Todo } from '../../components/models/Todo';
   styleUrls: ['./todos.component.css']
 })
 export class TodosComponent implements OnInit {
-  todos:Todo[];
+  todos: Todo[];
   constructor() { }
 
   ngOnInit() {
-    console.log("RAN");
+
     this.todos = [
     {
       id: 1,
