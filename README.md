@@ -12,6 +12,7 @@
 
 ```BASH
 $ npm install -g @angular/cli
+$ ng --version
 $ ng new todolist
 $ ng serve --open
 $ ng test
