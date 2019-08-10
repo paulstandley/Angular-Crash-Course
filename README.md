@@ -14,8 +14,8 @@
 $ npm install -g @angular/cli
 $ ng new todolist
 $ ng serve --open
-$ ng generate component components/Todos
 $ ng test
+$ ng generate component components/Todos
 $ ng g c components/TodoItem
 $ ng generate service services/Todo
 ```
