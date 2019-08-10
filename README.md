@@ -20,3 +20,9 @@ $ ng generate component components/Todos
 $ ng g c components/TodoItem
 $ ng generate service services/Todo
 ```
+
+___
+
+## Problems
+
+__1__ components test faild
