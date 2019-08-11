@@ -6,6 +6,7 @@ import { Todo } from '../../models/Todo';
   templateUrl: './todo.component.html',
   styleUrls: ['./todo.component.css']
 })
+
 export class TodoComponent implements OnInit {
   todos: Todo[];
   constructor() { }
