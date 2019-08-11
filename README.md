@@ -22,7 +22,3 @@ $ ng generate service services/Todo
 ```
 
 ___
-
-## Problems
-
-__1__ components test faild

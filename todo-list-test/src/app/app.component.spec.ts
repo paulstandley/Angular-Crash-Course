@@ -1,15 +1,17 @@
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { TodoComponent } from './components/todo/todo.component';
 
-xdescribe('AppComponent', () => {
+describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        TodoComponent
       ],
     }).compileComponents();
   }));
@@ -31,5 +33,11 @@ xdescribe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('h1').textContent).toContain('TODO-LIST-TEST');
+  });
+
+  it('should have a todo component', () => {
+    const fixture = TestBed.createComponent(TodoComponent);
+    const todo = fixture.debugElement.componentInstance;
+    expect(todo).toBeTruthy();
   });
 });
