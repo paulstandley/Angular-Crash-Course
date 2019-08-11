@@ -22,4 +22,12 @@ describe('TodoComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render something in the first li', () => {
+    fixture = TestBed.createComponent(TodoComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.getElementsByTagName('li')[0].textContent).toBeTruthy();
+  });
+
 });
