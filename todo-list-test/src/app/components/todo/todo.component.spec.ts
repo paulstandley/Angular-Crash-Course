@@ -23,11 +23,11 @@ describe('TodoComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should render something in the first li', () => {
+  it('should render something in the first p', () => {
     fixture = TestBed.createComponent(TodoComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.getElementsByTagName('li')[0].textContent).toBeTruthy();
+    expect(compiled.getElementsByTagName('p')[0].textContent).toBeTruthy();
   });
 
 });
