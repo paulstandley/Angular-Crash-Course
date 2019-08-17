@@ -22,6 +22,7 @@ $ ng generate component components/Todos
 $ ng g c components/TodoItem
 $ ng generate service services/Todo
 $ ng g s services/Todo
+$ ng g c components/layout/Header
 
 ```
 
