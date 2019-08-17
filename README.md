@@ -11,14 +11,17 @@
 ### Bash
 
 ```BASH
+
 $ npm install -g @angular/cli
 $ ng --version
 $ ng new todolist
+$ cd todolist
 $ ng serve --open
 $ ng test
 $ ng generate component components/Todos
 $ ng g c components/TodoItem
 $ ng generate service services/Todo
+
 ```
 
 ___
