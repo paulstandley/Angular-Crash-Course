@@ -26,11 +26,11 @@ describe('TodoItemComponent', () => {
     fixture1.detectChanges();
   });
 
-  xit('should create', () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 
-  xit('should create', () => {
+  it('should create', () => {
     expect(component1).toBeTruthy();
   });
 });
