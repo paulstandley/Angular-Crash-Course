@@ -24,6 +24,7 @@ $ ng generate service services/Todo
 $ ng g s services/Todo
 $ ng g c components/layout/Header
 $ ng g c components/AddTodo
+$ ng g c components/pages/About
 
 ```
 

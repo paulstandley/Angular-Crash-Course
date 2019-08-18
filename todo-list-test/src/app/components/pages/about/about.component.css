@@ -1,0 +1,14 @@
+div {
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+h1 {
+  padding: 1.2rem;
+}
+
+p {
+  padding: 2rem;
+  font-size: 1.4rem;
+}
