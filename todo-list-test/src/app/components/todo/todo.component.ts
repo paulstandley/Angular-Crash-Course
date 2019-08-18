@@ -23,7 +23,12 @@ export class TodoComponent implements OnInit {
       return del.id !== todo.id;
     });
     this.todoService.deleteTodo(todo).subscribe();
-    console.log("delete");
+  }
+
+  addTodo(todo: Todo) {
+    this.todoService.addTodo(todo).subscribe(todoSub => {
+      this.todos.push(todoSub);
+    });
   }
 
 }
